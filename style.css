@@ -1,0 +1,74 @@
+@font-face{
+    font-family:'rubic';
+    src: url('./font/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rubic";
+    font-weight: 500;
+    color: #403d39;
+}
+body{
+    direction: rtl;
+    background-color:#bee3db ;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #218380;
+}
+p{
+    margin-top: 10%;
+}
+.container{
+    width: 25rem;
+    height: 60%;
+    padding-right: 30px;
+    margin: 5% auto;
+    border-radius: 15px;
+    background-color: #fff;
+}
+form{
+    margin-top: 10%;
+}
+input:focus{
+    outline: 0;
+}
+.qr-input{
+    padding-right: 10px;
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.qr-button{
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    margin: 0.5rem 0px 1rem 0px;
+    border-radius: 5px;
+    border: 1px solid #bee3db;
+    background-color: #bee3db;
+    cursor: pointer;
+}
+.qr-container{
+    margin-top: 10%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    height: 10rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.qr-container img{
+    width: 45%;
+    border-radius: 15px;
+}
+.hidden{
+    display: none;
+}
